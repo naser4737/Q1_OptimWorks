@@ -94,7 +94,7 @@ filesystem = {
 
 # Input 1 : path = "root.dir1.subdir1"
 
-print(get_directory_size(filesystem, "root.dir3.subdir5"))  #Output :Total size: 1000
+print(get_directory_size(filesystem, "root.dir1.subdir1"))  #Output :Total size: 1000
 
 # Input 2: path = "root.dir2.subdir4.subsubdir5"
 # print(get_directory_size(filesystem, "root.dir2.subdir4.subsubdir5"))  #Output :Total size: 3400
